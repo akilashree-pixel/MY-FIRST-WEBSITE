@@ -5,7 +5,7 @@
     <title>online library portal</title>
   </head>
   <body>
-    <h2>Library</h2>
+    <h2> online Library</h2>
     <form>
       Name:<br>
       <input type="text" name="name><br><br>
