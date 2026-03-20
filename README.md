@@ -10,7 +10,24 @@
       Name:<br>
       <input type="text" name="name"><br><br>
       rollno:<br>
-      <input type="text" rollno="
+      <input type="text" name="rollno"><br><br>
+      Gender:<br>
+      <input type="radio" name="gender">male
+      <input typr="radio" name="gender">female<br><br>
+      Email ID:<br>
+      <input type="email" name="email"><br><br>
+      Department:<br>
+      <select>
+        <option>CSE</option>
+        <option>IT</option>
+        <option>ECE</option>
+        <option>EEE</option>
+        <option>AIML</option>
+        <option>AIDS</option>
+        <option>Mechanical</option>
+        <option>Civil</option>
+        <option>mechatronics</option>
+      </select><br><br>
     </form>
     
   </body>
