@@ -7,15 +7,26 @@
   <body>
     <h2> online Library</h2>
     <form>
+      
       Name:<br>
-      <input type="text" name="name"><br><br>
+      <input type="text" name="name" placeholder="Enter your name" ><br><br>
+      
       rollno:<br>
       <input type="text" name="rollno"><br><br>
+      
       Gender:<br>
       <input type="radio" name="gender">male
-      <input typr="radio" name="gender">female<br><br>
+      <input type="radio" name="gender">female<br><br>
+      
       Email ID:<br>
       <input type="email" name="email"><br><br>
+      
+      Password:<br>
+      <input type="password" name="password"><br><br>
+
+      College name:<br>
+      <input type="text" name="college name"><br><br>
+      
       Department:<br>
       <select>
         <option>CSE</option>
@@ -28,6 +39,12 @@
         <option>Civil</option>
         <option>mechatronics</option>
       </select><br><br>
+      
+      Address:<br>
+      <textarea rows="5" cols="40"></textarea><br><br>
+
+      <input type="submit" value="submit">
+      <input type="reset"  value="reset">
     </form>
     
   </body>
