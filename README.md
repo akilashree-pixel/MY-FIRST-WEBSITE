@@ -1,51 +1,25 @@
-# MY-FIRST-WEBSITE
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>online library portal</title>
-  </head>
-  <body>
-    <h2> online Library</h2>
-    <form>
-      
-      Name:<br>
-      <input type="text" name="name" placeholder="Enter your name" ><br><br>
-      
-      rollno:<br>
-      <input type="text" name="rollno"><br><br>
-      
-      Gender:<br>
-      <input type="radio" name="gender">male
-      <input type="radio" name="gender">female<br><br>
-      
-      Email ID:<br>
-      <input type="email" name="email"><br><br>
-      
-      Password:<br>
-      <input type="password" name="password"><br><br>
+A modern and user-friendly Library Management Web Application designed for students, readers, and administrators to efficiently manage books, users, and borrowing activities. This is my first website project, created to learn and practice web development skills.
 
-      College name:<br>
-      <input type="text" name="college name"><br><br>
-      
-      Department:<br>
-      <select>
-        <option>CSE</option>
-        <option>IT</option>
-        <option>ECE</option>
-        <option>EEE</option>
-        <option>AIML</option>
-        <option>AIDS</option>
-        <option>Mechanical</option>
-        <option>Civil</option>
-        <option>mechatronics</option>
-      </select><br><br>
-      
-      Address:<br>
-      <textarea rows="5" cols="40"></textarea><br><br>
+🚀 Features
+📖 View available books in the library
+🔍 Search books by title, author, or category
+👤 User registration and login system
+📚 Borrow and return books
+🕒 Track issued books and due dates
+➕ Add, edit, or delete books (Admin Panel)
+📱 Responsive design for mobile and desktop
+🛠️ Technologies Used
+Frontend: HTML, CSS, JavaScript
+Backend: (Add your backend technology here – Node.js / Python / PHP / etc.)
+Database: (Add your database here – MySQL / MongoDB / Firebase / etc.)
+🎯 Purpose of This Project
 
-      <input type="submit" value="submit">
-      <input type="reset"  value="reset">
-    </form>
+This project was built as my first website creation project to improve my skills in:
+
+Web design
+Frontend development
+Backend integration
+Database handling
+GitHub project hosting
     
-  </body>
-</html>
+    
