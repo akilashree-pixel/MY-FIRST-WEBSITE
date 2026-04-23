@@ -1,86 +1,40 @@
-<!DOCTYPE html>
-<html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Library Books Management</title>
+# Library Books Management Form
 
-<style>
-body{
-    font-family: Arial, sans-serif;
-    background-color:#f4f4f4;
-}
+A simple and user-friendly web form created using HTML and CSS for managing student library details. This project demonstrates the use of form elements, input fields, dropdown menus, radio buttons, and basic styling.
 
-form{
-    width:400px;
-    margin:auto;
-    background:white;
-    padding:20px;
-    border-radius:5px;
-}
+## Features
 
-input, select, textarea{
-    width:100%;
-    padding:6px;
-    margin-top:5px;
-}
+- Student Name Input
+- Roll Number Field
+- Gender Selection
+- Email ID Input
+- Password Field
+- College Name Entry
+- Department Dropdown List
+- Address Text Area
+- Submit and Reset Buttons
+- Clean and Responsive Design
 
-input[type="radio"]{
-    width:auto;
-}
+## Technologies Used
 
-input[type="submit"], input[type="reset"]{
-    background-color:#4CAF50;
-    color:white;
-    margin-top:15px;
-    cursor:pointer;
-}
-</style>
-</head>
+- HTML5
+- CSS3
 
-<body>
+## Project Purpose
 
-<form>
+This project is designed for beginners to understand how to create forms using HTML and style them using CSS. It can be used as a sample student registration or library management form.
 
-Name:<br>
-<input type="text" name="name" placeholder="Enter your name"><br><br>
+## How to Run
 
-Roll No:<br>
-<input type="text" name="rollno"><br><br>
+1. Download or clone the repository.
+2. Open the `index.html` file in any web browser.
+3. Fill the form and test the layout.
 
-Gender:<br>
-<input type="radio" name="gender" value="male"> Male
-<input type="radio" name="gender" value="female"> Female<br><br>
+#Future Improvements
+Add JavaScript validation
+Connect with database
+Store user records
+Improve UI design
 
-Email ID:<br>
-<input type="email" name="email"><br><br>
-
-Password:<br>
-<input type="password" name="password"><br><br>
-
-College Name:<br>
-<input type="text" name="college"><br><br>
-
-Department:<br>
-<select>
-<option>CSE</option>
-<option>IT</option>
-<option>ECE</option>
-<option>EEE</option>
-<option>AIML</option>
-<option>AIDS</option>
-<option>Mechanical</option>
-<option>Civil</option>
-<option>Mechatronics</option>
-</select><br><br>
-
-Address:<br>
-<textarea rows="5"></textarea><br><br>
-
-<input type="submit" value="Submit">
-<input type="reset" value="Reset">
-
-</form>
-
-</body>
-</html>
+#Author
+Akila shree M
